@@ -9,7 +9,7 @@ if(process.env.MLAB_USERNAME_WEBDEV) { // check if running remotely
   var username = process.env.MLAB_USERNAME_WEBDEV; // get from environment
   var password = process.env.MLAB_PASSWORD_WEBDEV;
   connectionString = 'mongodb://' + username + ':' + password;
-  connectionString += '@ds133856.mlab.com:33856/heroku_gdrfzfcv'; // use yours
+  connectionString += '@ds161016.mlab.com:61016/heroku_ffx8cjwf'; // use yours
 }
 
 
@@ -19,7 +19,7 @@ if(process.env.MLAB_USERNAME_WEBDEV) { // check if running remotely
 // hw6: var connectionString = 'mongodb://admin:admin@ds133964.mlab.com:33964/heroku_1gbtpnhz';
 //                                                    ds133964.mlab.com:33964/heroku_1gbtpnhz
 
-var connectionString = 'mongodb://admin:admin@ds133856.mlab.com:33856/heroku_gdrfzfcv';
+var connectionString = 'mongodb://dguo:dguo@ds161016.mlab.com:61016/heroku_ffx8cjwf';
 
 
 //                                            ds133856.mlab.com:33856/heroku_gdrfzfcv
